@@ -15,9 +15,9 @@ A robust and user-friendly installation script for Cursor AI IDE on Linux system
 
 ## 📋 Requirements
 
-- Linux operating system
-- sudo privileges
-- Cursor AppImage file
+- Any Linux distribution (Ubuntu, Debian, Fedora, openSUSE, Arch Linux, etc.)
+- sudo privileges (for system-wide installation)
+- Cursor AppImage file (universal Linux package)
 
 ## 🚀 Installation
 
