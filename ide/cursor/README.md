@@ -21,8 +21,8 @@ A robust and user-friendly installation script for Cursor AI IDE on Linux system
 ### 📥 Step 1: Download Cursor AppImage
 Since Cursor IDE doesn't provide a constant download link for the latest version, you'll need to:
 
-1. Visit the [official Cursor website](https://cursor.sh)
-2. Click on "Download" and select the Linux AppImage version
+1. Visit the [official Cursor website](https://www.cursor.com/)
+2. Click on "Download for Linux".
 3. Save the downloaded file (it should be named something like `Cursor-*.AppImage`)
 
 ### ⚙️ Step 2: Download the Installer Script
