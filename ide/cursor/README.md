@@ -4,14 +4,11 @@ A robust and user-friendly installation script for Cursor AI IDE on Linux system
 
 ## 🌟 Features
 
-- One-command installation process
 - Automatic system integration
 - Proper desktop entry creation
 - Icon management
 - Clean uninstallation option
 - Support for both system-wide and user-specific installations
-- Fallback mechanisms for icon download
-- Proper error handling
 
 ## 📋 Requirements
 
