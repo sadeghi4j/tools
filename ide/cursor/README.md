@@ -1,6 +1,14 @@
 # Cursor AI IDE Linux Installer
 
-A robust and user-friendly installation script for Cursor AI IDE on Linux systems. This script automates the installation process, ensuring proper system integration and desktop environment setup.
+A simple yet powerful script that integrates Cursor AI IDE into your Linux system's application menu. This means you can launch Cursor just like any other application - by searching for it in your system's application launcher (Windows key + A) or finding it in your applications menu, without needing to use the terminal.
+
+The script handles all the necessary steps to make Cursor feel like a native application on your system:
+- Creates proper desktop entries
+- Sets up application icons
+- Integrates with your system's application menu
+- Makes the Cursor easily discoverable and launchable
+
+No more terminal commands needed to start Cursor - just click and go!
 
 ## 🌟 Features
 
@@ -26,13 +34,17 @@ Since Cursor IDE doesn't provide a constant download link for the latest version
 3. Save the downloaded file (it should be named something like `Cursor-*.AppImage`)
 
 ### ⚙️ Step 2: Download the Installer Script
+This step downloads the installation script that will handle the setup process. The script is a single file that contains all the necessary commands to install Cursor IDE on your system properly.
+
 ```bash
 # Download the script
-curl -O https://github.com/sadeghi4j/tools/ide/cursor/install-cursor.sh
+curl -O https://raw.githubusercontent.com/yourusername/cursor-linux-installer/main/install-cursor.sh
 
 # Make it executable
 chmod +x install-cursor.sh
 ```
+
+The `chmod +x` command makes the script executable, which is required to run it. This is a standard security practice in Linux - files are not executable by default.
 
 ### 🎯 Step 3: Install Cursor 
 Run the installer with the path to your downloaded AppImage:
