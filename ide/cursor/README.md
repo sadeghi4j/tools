@@ -36,11 +36,13 @@ Since Cursor IDE doesn't provide a constant download link for the latest version
 ### ⚙️ Step 2: Download the Installer Script
 This step downloads the installation script that will handle the setup process. The script is a single file that contains all the necessary commands to install Cursor IDE on your system properly.
 
+- Download the script
 ```bash
-# Download the script
-curl -O https://raw.githubusercontent.com/yourusername/cursor-linux-installer/main/install-cursor.sh
+curl -O https://raw.githubusercontent.com/sadeghi4j/tools/refs/heads/main/ide/cursor/install-cursor.sh
+```
 
-# Make it executable
+- Make it executable
+```bash
 chmod +x install-cursor.sh
 ```
 
@@ -54,7 +56,6 @@ Run the installer with the path to your downloaded AppImage:
 
 For example, if you downloaded the AppImage to your Downloads folder:
 ```bash
-# Install Cursor
 ./install-cursor.sh ~/Downloads/Cursor-*.AppImage
 ```
 
@@ -62,7 +63,6 @@ For example, if you downloaded the AppImage to your Downloads folder:
 
 To uninstall Cursor, simply run:
 ```bash
-# Uninstall Cursor
 ./install-cursor.sh --uninstall
 ```
 
